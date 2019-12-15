@@ -12066,10 +12066,10 @@
     <usage name="Village" />
   </type>
   <type name="ShortJeans_Black">
-    <nominal>5</nominal>
+    <nominal>2</nominal>
     <lifetime>1800</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -12079,10 +12079,10 @@
     <usage name="Village" />
   </type>
   <type name="ShortJeans_Blue">
-    <nominal>5</nominal>
+    <nominal>2</nominal>
     <lifetime>1800</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -12092,10 +12092,10 @@
     <usage name="Village" />
   </type>
   <type name="ShortJeans_Brown">
-    <nominal>5</nominal>
+    <nominal>2</nominal>
     <lifetime>1800</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -12105,10 +12105,10 @@
     <usage name="Village" />
   </type>
   <type name="ShortJeans_Darkblue">
-    <nominal>5</nominal>
+    <nominal>2</nominal>
     <lifetime>1800</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -12118,10 +12118,10 @@
     <usage name="Village" />
   </type>
   <type name="ShortJeans_Green">
-    <nominal>5</nominal>
+    <nominal>2</nominal>
     <lifetime>1800</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -12131,10 +12131,10 @@
     <usage name="Village" />
   </type>
   <type name="ShortJeans_Red">
-    <nominal>5</nominal>
+    <nominal>2</nominal>
     <lifetime>1800</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -17918,4 +17918,17 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
+  <type name="white_jorts">
+    <nominal>8</nominal>
+    <lifetime>1800</lifetime>
+    <restock>0</restock>
+    <min>5</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Town" />
+    <usage name="Village" />
+  </type>
 </types>
