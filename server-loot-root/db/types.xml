@@ -17908,7 +17908,7 @@
         <usage name="Farm"/>
 		<usage name="Military"/>
     </type>
-	    <type name="Animal_UrsusArctos">
+	<type name="Animal_UrsusArctos">
         <nominal>0</nominal>
         <lifetime>1800</lifetime>
         <restock>0</restock>
@@ -17931,4 +17931,1535 @@
     <usage name="Town" />
     <usage name="Village" />
   </type>
+<type name="UNC_RPD">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>172800‬</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="heli"/>
+        <value name="Tier1"/>
+	<value name="Tier9"/>
+	<value name="Tier4"/>
+    </type>
+    <type name="Mag_RPD_100Rnd">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <quantmin>15</quantmin>
+        <quantmax>50</quantmax>
+        <cost>10</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>				 
+        <value name="Tier1"/>
+	<value name="Tier9"/>
+	<value name="Tier4"/>
+    </type>
+    <type name="Doc_OldSVD">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>144000</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>				 
+        <value name="Tier1"/>
+	<value name="Tier9"/>
+	<value name="Tier4"/>
+    </type>
+    <type name="Doc_AKMN">
+        <nominal>3</nominal>
+        <lifetime>10800</lifetime>
+        <restock>14400</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="heli"/>
+        <value name="Tier1"/>
+	<value name="Tier9"/>
+	<value name="Tier4"/>
+    </type>
+    <type name="Doc_AKM">
+        <nominal>3</nominal>
+        <lifetime>10800</lifetime>
+        <restock>14400</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="heli"/>
+        <value name="Tier1"/>
+	<value name="Tier9"/>
+	<value name="Tier4"/>
+    </type>
+    <type name="Doc_SKS45">
+        <nominal>7</nominal>
+        <lifetime>10800</lifetime>
+        <restock>0</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="Village"/>
+        <value name="Tier2"/>
+        <value name="Tier6"/>				 
+    </type>
+    <type name="AK103">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>30</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="heli"/>					 
+    </type>
+    <type name="Doc_M92">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>1800</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="heli"/>
+        <value name="Tier1"/>
+	<value name="Tier9"/>
+	<value name="Tier4"/>
+    </type>
+     <type name="Doc_AK47">
+        <nominal>5</nominal>
+        <lifetime>10800</lifetime>
+        <restock>9400</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier1"/>
+	<value name="Tier9"/>
+	<value name="Tier4"/>
+    </type>
+    <type name="Doc_Mag_AKM_20rnd">
+        <nominal>3</nominal>
+        <lifetime>10800</lifetime>
+        <restock>1800</restock>
+        <min>1</min>
+        <quantmin>20</quantmin>
+        <quantmax>60</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+        <usage name="Military"/>				 
+        <value name="Tier1"/>
+	<value name="Tier9"/>
+	<value name="Tier4"/>
+    </type>
+    <type name="Doc_Mag_AKM_10rnd">
+        <nominal>3</nominal>
+        <lifetime>10800</lifetime>
+        <restock>1800</restock>
+        <min>2</min>
+        <quantmin>20</quantmin>
+        <quantmax>60</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+        <usage name="Military"/>					 
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_Mag_AKM_40rnd">
+        <nominal>3</nominal>
+        <lifetime>10800</lifetime>
+        <restock>1800</restock>
+        <min>2</min>
+        <quantmin>20</quantmin>
+        <quantmax>60</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+        <usage name="Military"/>				 
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_RPK74_45Rnd">
+        <nominal>3</nominal>
+        <lifetime>10800</lifetime>
+        <restock>1800</restock>
+        <min>2</min>
+        <quantmin>20</quantmin>
+        <quantmax>60</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+        <usage name="Military"/>					 
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_RPK74_45RndPlum">
+        <nominal>3</nominal>
+        <lifetime>10800</lifetime>
+        <restock>1800</restock>
+        <min>2</min>
+        <quantmin>20</quantmin>
+        <quantmax>60</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+        <usage name="Military"/>			 
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Mag_AK74_60Rnd">
+        <nominal>1</nominal>
+        <lifetime>10800</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>20</quantmin>
+        <quantmax>60</quantmax>
+        <cost>60</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+        <usage name="Military"/>			 
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Mag_STANAGCoupled_30Rnd">
+        <nominal>1</nominal>
+        <lifetime>10800</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>20</quantmin>
+        <quantmax>60</quantmax>
+        <cost>60</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+        <usage name="Military"/>			 
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_AKS74U">
+        <nominal>6</nominal>
+        <lifetime>10800</lifetime>
+        <restock>1800</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="heli"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_AKS74UN">
+        <nominal>4</nominal>
+        <lifetime>10800</lifetime>
+        <restock>1800</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="heli"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_AR10">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>30</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="heli"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>  
+    </type>
+    <type name="Doc_AR10_Mag">
+        <nominal>3</nominal>
+        <lifetime>108000</lifetime>
+        <restock>800</restock>
+        <min>0</min>
+        <quantmin>10</quantmin>
+        <quantmax>30</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_mp9">
+        <nominal>4</nominal>
+        <lifetime>10800</lifetime>
+        <restock>1800</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="Police"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Mag_Mp9_30Rnd">
+        <nominal>6</nominal>
+        <lifetime>10800</lifetime>
+        <restock>1800</restock>
+        <min>2</min>
+        <quantmin>10</quantmin>
+        <quantmax>50</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="Police"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_BAR">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Town"/>				 
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Mag_BAR">
+        <nominal>20</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>4</min>
+        <quantmin>10</quantmin>
+        <quantmax>30</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+    </type>
+    <type name="Doc_AVT40">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Town"/>					 
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_SVT40">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_SVT_10RndMag">
+        <nominal>10</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>2</min>
+        <quantmin>10</quantmin>
+        <quantmax>30</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+    </type>
+    <type name="Doc_SVT_20RndMag">
+        <nominal>3</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <quantmin>10</quantmin>
+        <quantmax>20</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>  
+        <usage name="Town"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_USAS">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>14400</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
+        <category name="weapons"/>
+        <usage name="heli"/>					 
+    </type>
+    <type name="Doc_USAS12_10rnd_BoxMag">
+        <nominal>4</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>1</min>
+        <quantmin>10</quantmin>
+        <quantmax>30</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>					 
+    </type>
+    <type name="Doc_USAS12_20rnd_DrumMag">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>1</min>
+        <quantmin>10</quantmin>
+        <quantmax>50</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>				 
+    </type>
+    <type name="Doc_M60">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>14400</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="heli"/>      					 
+    </type>
+    <type name="Doc_M60_100rnd_Drum">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>1</min>
+        <quantmin>5</quantmin>
+        <quantmax>20</quantmax>
+        <cost>10</cost>
+        <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="heli"/>      				 
+    </type>
+    <type name="Doc_M240B">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>14400</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
+        <category name="weapons"/>
+        <usage name="heli"/>  					 
+    </type>
+    <type name="Doc_EF88">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>1800</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>					 
+    </type>
+    <type name="AK5C">
+        <nominal>1</nominal>
+        <lifetime>10800</lifetime>
+        <restock>172800‬</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>70</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>					 
+    </type>
+    <type name="Doc_AK12">
+        <nominal>1</nominal>
+        <lifetime>10800</lifetime>
+        <restock>172800‬</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>70</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>					 
+    </type>
+    <type name="Mag_AK5C">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>1800</restock>
+        <min>1</min>
+        <quantmin>5</quantmin>
+        <quantmax>30</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>				 
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_PPSH41">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Mag_PPSH_35Rnd">
+        <nominal>3</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>1</min>
+        <quantmin>10</quantmin>
+        <quantmax>30</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+    </type>
+     <type name="Mag_PPSH_71Rnd">
+        <nominal>3</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>1</min>
+        <quantmin>10</quantmin>
+        <quantmax>30</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+    </type>
+    <type name="Doc_TT33">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_Mag_TT33_8Rnd">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>2</min>
+        <quantmin>10</quantmin>
+        <quantmax>30</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+    </type>
+    <type name="Ammo_762x25tok">
+        <nominal>30</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>3</min>
+        <quantmin>40</quantmin>
+        <quantmax>60</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Police"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+    </type>
+    <type name="Doc_KP31">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Mag_KP31_Drum">
+        <nominal>4</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>1</min>
+        <quantmin>10</quantmin>
+        <quantmax>30</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+    </type>
+    <type name="Doc_m1a1">
+        <nominal>8</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Police"/>
+        <usage name="Town"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_m1928">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Police"/>
+        <usage name="Town"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Mag_m1a1_25Rnd">
+        <nominal>10</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>2</min>
+        <quantmin>10</quantmin>
+        <quantmax>30</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Police"/>
+        <usage name="Town"/>					 
+    </type>
+    <type name="Mag_M1928_30Rnd">
+        <nominal>6</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>2</min>
+        <quantmin>10</quantmin>
+        <quantmax>30</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Police"/>
+        <usage name="Town"/>				 
+    </type>
+    <type name="Mag_M1928_50Rnd">
+        <nominal>3</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>1</min>
+        <quantmin>10</quantmin>
+        <quantmax>30</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Police"/>
+        <usage name="Town"/>			 
+    </type>
+    <type name="Doc_M3A1">
+        <nominal>10</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>			 
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Mag_M3A1_30rnd">
+        <nominal>6</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>2</min>
+        <quantmin>10</quantmin>
+        <quantmax>30</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>			 
+    </type>
+    <type name="Doc_SV98">
+        <nominal>1</nominal>
+        <lifetime>10800</lifetime>
+        <restock>172800‬</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>70</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>				 
+    </type>
+    <type name="Mag_SV98_10Rnd">
+        <nominal>4</nominal>
+        <lifetime>10800</lifetime>
+        <restock>172800‬</restock>
+        <min>0</min>
+        <quantmin>50</quantmin>
+        <quantmax>80</quantmax>
+        <cost>70</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+        <usage name="Military"/>				 
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_Makarov">
+        <nominal>10</nominal>
+        <lifetime>10800</lifetime>
+        <restock>1800</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Military"/>
+        <usage name="Police"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_Mag_Mak_8Rnd">
+        <nominal>30</nominal>
+        <lifetime>10800</lifetime>
+        <restock>1800</restock>
+        <min>2</min>
+        <quantmin>10</quantmin>
+        <quantmax>50</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Military"/>
+        <usage name="Police"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_Mag_Mak_84Rnd">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>10</quantmin>
+        <quantmax>50</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="Police"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_Ammo_9x18">
+        <nominal>20</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>4</min>
+        <quantmin>40</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Police"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+    </type>
+    <type name="Doc_M9A1">
+        <nominal>4</nominal>
+        <lifetime>10800</lifetime>
+        <restock>1800</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="Police"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Mag_M9A1_15Rnd">
+        <nominal>5</nominal>
+        <lifetime>10800</lifetime>
+        <restock>1800</restock>
+        <min>1</min>
+        <quantmin>10</quantmin>
+        <quantmax>50</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="Police"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_MK23">
+        <nominal>5</nominal>
+        <lifetime>10800</lifetime>
+        <restock>1800</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="Police"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Mag_HKMK23_12Rnd">
+        <nominal>8</nominal>
+        <lifetime>10800</lifetime>
+        <restock>1800</restock>
+        <min>2</min>
+        <quantmin>10</quantmin>
+        <quantmax>50</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="Police"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_G3SG1">
+        <nominal>1</nominal>
+        <lifetime>10800</lifetime>
+        <restock>172800‬</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>70</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+    </type>
+    <type name="Doc_G3A3">
+        <nominal>1</nominal>
+        <lifetime>10800</lifetime>
+        <restock>172800‬</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>70</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+    </type>
+    <type name="G3RailMount">
+        <nominal>4</nominal>
+        <lifetime>10800</lifetime>
+        <restock>172800‬</restock>
+        <min>0</min>
+        <quantmin>50</quantmin>
+        <quantmax>80</quantmax>
+        <cost>70</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+        <usage name="Military"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="G3Bttstck">
+        <nominal>4</nominal>
+        <lifetime>10800</lifetime>
+        <restock>172800‬</restock>
+        <min>0</min>
+        <quantmin>50</quantmin>
+        <quantmax>80</quantmax>
+        <cost>70</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+        <usage name="Military"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="G3A3Hndgrd">
+        <nominal>4</nominal>
+        <lifetime>10800</lifetime>
+        <restock>172800‬</restock>
+        <min>0</min>
+        <quantmin>50</quantmin>
+        <quantmax>80</quantmax>
+        <cost>70</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+        <usage name="Military"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="G3SG1Bttstck">
+        <nominal>4</nominal>
+        <lifetime>10800</lifetime>
+        <restock>172800‬</restock>
+        <min>0</min>
+        <quantmin>50</quantmin>
+        <quantmax>80</quantmax>
+        <cost>70</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+        <usage name="Military"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="G3SG1Hndgrd">
+        <nominal>4</nominal>
+        <lifetime>10800</lifetime>
+        <restock>172800‬</restock>
+        <min>0</min>
+        <quantmin>50</quantmin>
+        <quantmax>80</quantmax>
+        <cost>70</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+        <usage name="Military"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_G3_5rnd_Mag">
+        <nominal>1</nominal>
+        <lifetime>10800</lifetime>
+        <restock>172800‬</restock>
+        <min>0</min>
+        <quantmin>50</quantmin>
+        <quantmax>80</quantmax>
+        <cost>70</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+        <usage name="Military"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_G3_10rnd_Mag">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>172800‬</restock>
+        <min>0</min>
+        <quantmin>50</quantmin>
+        <quantmax>80</quantmax>
+        <cost>70</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+        <usage name="Military"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_G3_Mag">
+        <nominal>4</nominal>
+        <lifetime>10800</lifetime>
+        <restock>172800‬</restock>
+        <min>0</min>
+        <quantmin>50</quantmin>
+        <quantmax>80</quantmax>
+        <cost>70</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+        <usage name="Military"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_G3Ribbed_Mag">
+        <nominal>4</nominal>
+        <lifetime>10800</lifetime>
+        <restock>172800‬</restock>
+        <min>0</min>
+        <quantmin>50</quantmin>
+        <quantmax>80</quantmax>
+        <cost>70</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+        <usage name="Military"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_G3_30rnd_Mag">
+        <nominal>4</nominal>
+        <lifetime>10800</lifetime>
+        <restock>172800‬</restock>
+        <min>0</min>
+        <quantmin>50</quantmin>
+        <quantmax>80</quantmax>
+        <cost>70</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+        <usage name="Military"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_G3_50rnd_Drum">
+        <nominal>1</nominal>
+        <lifetime>10800</lifetime>
+        <restock>172800‬</restock>
+        <min>0</min>
+        <quantmin>50</quantmin>
+        <quantmax>80</quantmax>
+        <cost>30</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+        <usage name="Military"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_PKM">
+        <nominal>1</nominal>
+        <lifetime>10800</lifetime>
+        <restock>172800‬</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>70</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+    </type>
+    <type name="Doc_PKM_WoodBttstck">
+        <nominal>4</nominal>
+        <lifetime>10800</lifetime>
+        <restock>172800‬</restock>
+        <min>0</min>
+        <quantmin>50</quantmin>
+        <quantmax>80</quantmax>
+        <cost>70</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+        <usage name="Military"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_PKM_100RND">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>172800‬</restock>
+        <min>0</min>
+        <quantmin>50</quantmin>
+        <quantmax>80</quantmax>
+        <cost>70</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+        <usage name="Military"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_M14">
+        <nominal>1</nominal>
+        <lifetime>10800</lifetime>
+        <restock>172800‬</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>70</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+    </type>
+    <type name="Doc_M14">
+        <nominal>1</nominal>
+        <lifetime>10800</lifetime>
+        <restock>172800‬</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>70</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+    </type>
+    <type name="Doc_M14_marksman">
+        <nominal>1</nominal>
+        <lifetime>10800</lifetime>
+        <restock>172800‬</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>70</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+    </type>
+    <type name="Doc_M1A">
+        <nominal>1</nominal>
+        <lifetime>10800</lifetime>
+        <restock>172800‬</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>70</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+    </type>
+    <type name="Doc_M1A_Green">
+        <nominal>1</nominal>
+        <lifetime>10800</lifetime>
+        <restock>172800‬</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>70</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+    </type>
+    <type name="Doc_M1A_Tan">
+        <nominal>1</nominal>
+        <lifetime>10800</lifetime>
+        <restock>172800‬</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>70</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+    </type>
+    <type name="M14RailMount">
+        <nominal>4</nominal>
+        <lifetime>10800</lifetime>
+        <restock>172800‬</restock>
+        <min>0</min>
+        <quantmin>50</quantmin>
+        <quantmax>80</quantmax>
+        <cost>70</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+        <usage name="Military"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_M14_5rnd_Mag">
+        <nominal>4</nominal>
+        <lifetime>10800</lifetime>
+        <restock>172800‬</restock>
+        <min>0</min>
+        <quantmin>50</quantmin>
+        <quantmax>80</quantmax>
+        <cost>70</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+        <usage name="Military"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_M14_10rnd_Mag">
+        <nominal>4</nominal>
+        <lifetime>10800</lifetime>
+        <restock>172800‬</restock>
+        <min>0</min>
+        <quantmin>50</quantmin>
+        <quantmax>80</quantmax>
+        <cost>70</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+        <usage name="Military"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_M14_Mag">
+        <nominal>4</nominal>
+        <lifetime>10800</lifetime>
+        <restock>172800‬</restock>
+        <min>0</min>
+        <quantmin>50</quantmin>
+        <quantmax>80</quantmax>
+        <cost>70</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+        <usage name="Military"/>				 
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_M14_30rnd_Mag">
+        <nominal>4</nominal>
+        <lifetime>10800</lifetime>
+        <restock>172800‬</restock>
+        <min>0</min>
+        <quantmin>50</quantmin>
+        <quantmax>80</quantmax>
+        <cost>70</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+        <usage name="Military"/>				 
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_M14_50rnd_Drum">
+        <nominal>1</nominal>
+        <lifetime>10800</lifetime>
+        <restock>172800‬</restock>
+        <min>0</min>
+        <quantmin>50</quantmin>
+        <quantmax>80</quantmax>
+        <cost>40</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+        <usage name="Military"/>				 
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_HK416">
+        <nominal>1</nominal>
+        <lifetime>10800</lifetime>
+        <restock>172800‬</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>70</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>					 
+    </type>
+    <type name="Doc_L85A2">
+        <nominal>1</nominal>
+        <lifetime>10800</lifetime>
+        <restock>172800‬</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>70</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="heli"/>				 
+    </type>
+	<type name="Doc_MG42">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>14400</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="heli"/>      					 
+    </type>
+    <type name="Doc_MG42_50rnd_Drum">
+        <nominal>3</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>1</min>
+        <quantmin>5</quantmin>
+        <quantmax>20</quantmax>
+        <cost>10</cost>
+        <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="heli"/>      				 
+    </type>
+    <type name="Ammo_556x45_AP">
+        <nominal>6</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>30</quantmin>
+        <quantmax>60</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="heli"/>					 
+    </type>
+    <type name="Ammo_308Win_AP">
+        <nominal>6</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>30</quantmin>
+        <quantmax>60</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="heli"/>			 
+    </type>
+    <type name="Ammo_545x39_BP">
+        <nominal>6</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>30</quantmin>
+        <quantmax>60</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="heli"/>				 
+    </type>
+    <type name="Ammo_762x39_BP">
+        <nominal>6</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>30</quantmin>
+        <quantmax>60</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="heli"/>					 
+    </type>
+    <type name="Doc_ASVAL">
+        <nominal>3</nominal>
+        <lifetime>10800</lifetime>
+        <restock>259200‬</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>60</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <category name="weapons"/>
+        <usage name="heli"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>                                    
+        <usage name="Military"/>
+    </type>
+    <type name="ASValbttstk">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="Mag_Asval_20Rnd">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <quantmin>10</quantmin>
+        <quantmax>30</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>					 
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_Kar98K">
+        <nominal>10</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+    </type>
+    <type name="Doc_G43">
+        <nominal>6</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Mag_G43_10Rnd">
+        <nominal>10</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>2</min>
+        <quantmin>10</quantmin>
+        <quantmax>30</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+    </type>
+    <type name="Ammo_8mm">
+        <nominal>20</nominal>
+        <lifetime>7200</lifetime>
+        <restock>800</restock>
+        <min>4</min>
+        <quantmin>40</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <value name="Tier2"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_M1903">
+        <nominal>10</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+    </type>
+    <type name="Ammo_3006">
+        <nominal>20</nominal>
+        <lifetime>7200</lifetime>
+        <restock>800</restock>
+        <min>4</min>
+        <quantmin>40</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <value name="Tier2"/>
+        <value name="Tier1"/><value name="Tier4"/><value name="Tier9"/>
+    </type>
+    <type name="Doc_M40A1">
+        <nominal>6</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+    </type>
+    <type name="PTRD41">
+        <nominal>3</nominal>
+        <lifetime>7200</lifetime>
+        <restock>259200‬</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>10</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Farm"/>      			 
+    </type>
+    <type name="Ammo_145x114">
+        <nominal>4</nominal>
+        <lifetime>10800</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>20</quantmin>
+        <quantmax>60</quantmax>
+        <cost>10</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="heli"/>					 
+    </type>
 </types>
