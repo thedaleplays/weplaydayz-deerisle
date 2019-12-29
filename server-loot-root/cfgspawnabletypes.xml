@@ -3408,4 +3408,61 @@
 		</attachments>
 	</type>
 -->
+	<type name="Doc_G3SG1">
+		<attachments chance="1.0">
+			<item name="G3SG1Bttstck" chance="1.0" />
+			<item name="G3Bttstck" chance="1.0" />
+		</attachments>
+		<attachments chance="1.0">
+			<item name="G3A3Hndgrd" chance="1.0" />
+			<item name="G3SG1Hndgrd" chance="1.0" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="G3RailMount" chance="0.40" />
+		</attachments>
+	</type>
+	<type name="Doc_G3A3">
+		<attachments chance="1.0">
+			<item name="G3SG1Bttstck" chance="1.0" />
+			<item name="G3Bttstck" chance="1.0" />
+		</attachments>
+		<attachments chance="1.0">
+			<item name="G3A3Hndgrd" chance="1.0" />
+			<item name="G3SG1Hndgrd" chance="1.0" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="G3RailMount" chance="0.40" />
+		</attachments>
+	</type>
+	<type name="Doc_PKM">
+		<attachments chance="1.0">
+			<item name="Doc_PKM_WoodBttstck" chance="1.0" />
+		</attachments>
+	</type>
+	<type name="Doc_M14">
+		<attachments chance="0.15">
+			<item name="M14RailMount" chance="0.40" />
+		</attachments>
+	</type>
+	<type name="Doc_M14_marksman">
+		<attachments chance="0.15">
+			<item name="M14RailMount" chance="0.40" />
+		</attachments>
+	</type>
+	<type name="Doc_M1A">
+		<attachments chance="0.15">
+			<item name="M14RailMount" chance="0.40" />
+		</attachments>
+	</type>
+	<type name="Doc_M1A_Green">
+		<attachments chance="0.15">
+			<item name="M14RailMount" chance="0.40" />
+		</attachments>
+	</type>
+	<type name="Doc_M1A_Tan">
+		<attachments chance="0.15">
+			<item name="M14RailMount" chance="0.40" />
+		</attachments>
+	</type>
+	
 </spawnabletypes>
