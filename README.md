@@ -1,6 +1,8 @@
 # weplaydayz-deerisle
 WePlayDayZ on Deer Isle's Server Files
 
+This was last used on the 1.06 stable release of DayZ along with Deer Isle version Z3.3.
+
 # server-loot-root folder
 These are the server files that get updated when DayZ releases a new update. 
 Verify the information in the following files to ensure they are still to our hardcore standards.
